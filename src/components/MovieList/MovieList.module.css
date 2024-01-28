@@ -25,3 +25,5 @@
 .item:focus {
   background-color: rgba(230, 196, 157, 0.295);
 }
+@media screen and (min-width: 768px) {
+}
