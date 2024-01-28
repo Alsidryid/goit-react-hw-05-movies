@@ -1,0 +1,29 @@
+.cast_list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  max-width: 1000px;
+  background-color: rgba(250, 243, 243, 0.808);
+}
+.cast_item {
+  width: calc((100% - 200px) / 5);
+  margin-right: 38px;
+  background-color: rgba(236, 225, 212, 0.295);
+  margin-bottom: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cast_image {
+  width: 100%;
+}
+.cast_item:nth-child(5n) {
+  margin-right: 0;
+}
+
+.name {
+  font-size: 20px;
+  margin: 5px 0;
+}

@@ -1,0 +1,14 @@
+.list {
+  list-style: none;
+  max-width: 1000px;
+  background-color: rgba(250, 243, 243, 0.808);
+}
+.item {
+  margin-bottom: 25px;
+}
+.title {
+  margin: 10px 0;
+}
+.post {
+  padding-left: 15px;
+}

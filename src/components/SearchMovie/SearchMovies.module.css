@@ -1,0 +1,17 @@
+.list {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-gap: 20px;
+  list-style: none;
+  padding: 20px;
+}
+.btns {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+.btn {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 150px;
+}

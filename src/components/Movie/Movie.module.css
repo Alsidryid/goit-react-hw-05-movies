@@ -1,0 +1,65 @@
+.back {
+  background-color: rgb(7, 38, 121);
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+.back:hover,
+.back:focus {
+  background-color: rgb(36, 55, 105);
+}
+.content {
+  padding: 10px 20px;
+}
+.box {
+  background-color: rgb(87, 120, 212);
+  padding: 20px;
+  box-shadow: 0px 9px 29px -11px rgba(0, 0, 0, 0.61);
+  margin-bottom: 30px;
+}
+.score {
+  font-size: 20px;
+  font-weight: 500;
+}
+.genres {
+  list-style: none;
+  display: flex;
+  font-size: 20px;
+  font-weight: 500;
+  align-items: flex-end;
+  padding: 0;
+}
+.genre {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 15px;
+}
+.overview {
+  font-size: 15px;
+  font-weight: 500;
+  max-width: 1000px;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+}
+.info {
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: none;
+  margin-bottom: 15px;
+  color: rgb(87, 120, 212);
+}
+
+.info:hover,
+.info:focus {
+  color: rgb(36, 55, 105);
+}
+.info:global(.active) {
+  color: rgb(7, 38, 121);
+}
