@@ -34,7 +34,11 @@ const Cast = () => {
       <li className={style.cast_item} key={id}>
         <img
           className={style.cast_image}
-          src={`https://image.tmdb.org/t/p/w500${profile_path}`}
+          src={
+            profile_path
+              ? `https://image.tmdb.org/t/p/w500${profile_path}`
+              : 'https://ireland.apollo.olxcdn.com/v1/files/0iq0gb9ppip8-UA/image;s=1000x700'
+          }
           alt=""
         />
         <div className={style.desc}>
